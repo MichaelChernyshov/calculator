@@ -6,9 +6,9 @@ function calculateForUsers(name, currentAge, maxAge, estimatedAmount) {
 
     let letYearsInWeeks = (maxAge - currentAge) * 365 / 7;
     let eatedPopatoes = letYearsInWeeks * estimatedAmount;
-    let eatedPopatoesRounded = Math.round(eatedPopatoes)
-    let result = `${name} has ${currentAge} years and will eat ${eatedPopatoesRounded} potatoes untill age of ${maxAge}`
-    alert(result)
+    let eatedPopatoesRounded = Math.round(eatedPopatoes);
+    let result = `${name} has ${currentAge} years and will eat ${eatedPopatoesRounded} potatoes untill age of ${maxAge}`;
+    alert(result);
 }
 
 calculateForUsers();
