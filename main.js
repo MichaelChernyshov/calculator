@@ -1,3 +1,5 @@
+let arrayOfAnswers = [];
+
 function calculateForUsers(name, currentAge, maxAge, estimatedAmount) {
     name = prompt("What's yoyr name?");
     currentAge = prompt("Your age");
@@ -8,6 +10,7 @@ function calculateForUsers(name, currentAge, maxAge, estimatedAmount) {
     let eatedPopatoes = letYearsInWeeks * estimatedAmount;
     let eatedPopatoesRounded = Math.round(eatedPopatoes);
     let result = `${name} has ${currentAge} years and will eat ${eatedPopatoesRounded} potatoes untill age of ${maxAge}`;
+    arrayOfAnswers.push(result) //Store answers
     alert(result);
 }
 
